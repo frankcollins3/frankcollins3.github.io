@@ -24,9 +24,13 @@ for (i = 0; i < td.length; i++) {
     console.log(eachTD);
     eachTD.style.zIndex = "-1";
     eachTD.style.backgroundColor = "green";
-  
+
 }
-td[14].style.backgroundColor = "red";
+td[15].style.backgroundColor = "red";
+td[16].addEventListener('click', function() {
+td[16].style.zIndex = "-2";
+})
+
 // document.querySelectorAll('td').style.zIndex = "-1";
 // document.querySelectorAll('td').style.backgroundColor = 'purple';
 
