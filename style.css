@@ -1,6 +1,4 @@
-.box {
-    background-color: blue;
-}
+
 #gameboard {
     position: relative;
     width: 1024px;
@@ -9,4 +7,10 @@
     background: url("skygif.gif");
     background-repeat: no-repeat;
     background-size: cover; 
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    background-color:  blue; 
 }

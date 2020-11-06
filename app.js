@@ -12,15 +12,10 @@ for (j= 0; j < column; j++) {
 const square = document.createElement('div');
 gameBoardContainer.appendChild(square);
 console.log(square);
-
 document.querySelector('row').style.backgroundColor = "blue";
-
 //give every square it's own id based on its row and column. i.e.: "s65"
 square.id = 's' + j + i;
-
-var topPosition = j * squareSize;
-var leftPosition = i * squareSize;
-
-// Use positioning for CSS' a
 }
 };
+
+
